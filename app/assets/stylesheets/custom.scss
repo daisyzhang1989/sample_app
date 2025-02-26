@@ -153,7 +153,6 @@ input {
   height: auto !important;
 }
 
-
 #error_explanation {
   color: red;
   ul {
@@ -167,4 +166,10 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+/* Dropdown menu */
+
+.dropdown-menu.active {
+  display: block;
 }
